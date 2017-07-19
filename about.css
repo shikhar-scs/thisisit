@@ -12,7 +12,7 @@ body{
 	 -webkit-box-pack:center;
 	 background-color:#eefffc;
 	 background-image:url(pic5.jpg);
-	 opacity:0.8;
+	 
 }
  
 #main_layout{
@@ -91,15 +91,19 @@ li:hover{
 				border-bottom: 5px solid #20189b;
 				margin-right:150px;
 				padding:10px;
-				height:250px;
+				height:550px;
 				margin-top:30px;
 				-webkit-box-flex:  1;
 				-webkit-transition:-webkit-transform 1s;
 }
 #middle_content:hover{
-						-webkit-transform: scale(1.2);	
+						-webkit-transform: scale(1.1);	
 }
-
+p{
+	font: 20px TAHOMA;
+	text-align: justify;
+    background: url(pic7.jpg);
+}
 #sm{
 	margin-left:10px;
 	margin-right:10px;

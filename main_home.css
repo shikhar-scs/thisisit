@@ -12,7 +12,7 @@ body{
 	 -webkit-box-pack:center;
 	 background-color:#eefffc;
 	 background-image:url(pic5.jpg);
-	 opacity:0.8;
+	 
 }
  
 #main_layout{
@@ -83,7 +83,11 @@ li:hover{
 		-webkit-transform: scale(1.5);
 		
 }
-
+p{
+	font: 20px TAHOMA;
+	text-align: justify;
+    background: url(pic7.jpg);
+}
 #middle_content{
 				margin-left:150px;
 				-webkit-border-radius:5px;
@@ -91,13 +95,14 @@ li:hover{
 				border-bottom: 5px solid #20189b;
 				margin-right:150px;
 				padding:10px;
-				height:250px;
+				opacity:1;
+				height:750px;
 				margin-top:30px;
 				-webkit-box-flex:  1;
 				-webkit-transition:-webkit-transform 1s;
 }
 #middle_content:hover{
-						-webkit-transform: scale(1.2);	
+						-webkit-transform: scale(1.1);	
 }
 
 #sm{
