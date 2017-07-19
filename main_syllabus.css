@@ -106,6 +106,7 @@ h4{
 .dropbtn {
     background: url(pic2.jpg);
 	margin-left:200px;
+	margin-bottom:100px;
     color: #00658f;
     padding: 16px;
     font-size: 30px;
