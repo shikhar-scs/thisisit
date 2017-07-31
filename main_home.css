@@ -20,7 +20,7 @@ body{
 	 margin:0px 0px;
 	 display:-webkit-box;
 	 -webkit-box-orient:vertical;
-	 -webkit-box-flex:1;
+	 -webkit-box-flex:1; 
 }	
  
  
@@ -102,7 +102,7 @@ p{
 				margin-right:150px;
 				padding:10px;
 				opacity:1;
-				height:750px;
+				height:850px;
 				margin-top:30px;
 				-webkit-box-flex:  1;
 				-webkit-transition:-webkit-transform 1s;
