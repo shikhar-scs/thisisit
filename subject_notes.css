@@ -80,6 +80,8 @@ li{
 		-webkit-border-radius:5px;
 		background-image:url(pic2.jpg);
 		border-bottom: 3px solid #5A51E6;
+		border-left: 3px solid #5A51E6;
+		border-right: 3px solid #5A51E6;
 		font: 20px TAHOMA;
 		-webkit-transition:-webkit-transform 1s;
 
@@ -96,9 +98,9 @@ li:hover{
 			margin-right:10%;
 			width:80%;
 			display:inline-block;
-				-webkit-border-radius:5px;
+				-webkit-border-radius:15px;
 				background-image:url(pic1.jpg);
-				border-bottom: 5px solid #20189b;
+				border: 5px solid #20189b;
 				padding:10px;
 
 				margin-top:30px;
@@ -117,9 +119,9 @@ li:hover{
 
 #left_side{
 
-			-webkit-border-radius:5px;
+			-webkit-border-radius:15px;
 			background-image:url(pic1.jpg);
-			border-bottom: 5px solid #20189b;
+			border: 5px solid #20189b;
 
 			margin-left:10%;
 			margin-right:10%;
@@ -131,7 +133,6 @@ li:hover{
 
 #bottom_thing{
 			background-image:url(pic4.jpg);
-
 			margin-left:10%;
 			margin-right:10%;
 			width:80%;

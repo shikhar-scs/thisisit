@@ -77,6 +77,8 @@ li{
 		-webkit-border-radius:5px;
 		background-image:url(pic2.jpg);
 		border-bottom: 3px solid #5A51E6;
+		border-left: 3px solid #5A51E6;
+		border-right: 3px solid #5A51E6;
 		font: 20px TAHOMA;
 		-webkit-transition:-webkit-transform 1s;
 
@@ -89,9 +91,9 @@ li:hover{
 
 #middle_content{
 
-				-webkit-border-radius:5px;
+				-webkit-border-radius:15px;
 				background-image:url(pic1.jpg);
-				border-bottom: 5px solid #20189b;
+				border: 5px solid #20189b;
 				margin-left:10%;
 				margin-right:10%;
 				width:80%;
@@ -102,7 +104,7 @@ li:hover{
 				margin-top:30px;
 }
 h4{
-	color: #00658f;
+	color: white;
     padding: 16px;
     font-size: 50px;
 	text-align:center;
@@ -113,20 +115,21 @@ h4{
 			background: url(pic2.jpg);
 			margin-left:30%;
 			margin-right:30%;
-			color: #00658f;
+			border-top: 5px solid #20189b;
+			color: white;
 			padding: 16px;
 			font-size: 30px;
+			-webkit-border-radius:5px;
 			cursor: pointer;
 }
 #but {
-	margin-left:30%;
-
+			margin-left:30%;
 			margin-right:30%;
 			display:inline-block;
 }
 .dropdown {
     position: relative;
-
+		-webkit-border-radius:15px;
     display: inline-block;
 }
 
@@ -149,7 +152,7 @@ h4{
 
 			-webkit-border-radius:5px;
 			background-image:url(pic1.jpg);
-			border-bottom: 5px solid #20189b;
+			border: 5px solid #20189b;
 			padding:10px;
 			margin-left:10%;
 			margin-right:10%;
