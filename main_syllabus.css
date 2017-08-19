@@ -80,6 +80,8 @@ li{
 		-webkit-border-radius:5px;
 		background-image:url(pic2.jpg);
 		border-bottom: 3px solid #5A51E6;
+		border-left: 3px solid #5A51E6;
+		border-right: 3px solid #5A51E6;
 		font: 20px TAHOMA;
 		-webkit-transition:-webkit-transform 1s;
 
@@ -92,19 +94,19 @@ li:hover{
 
 #middle_content{
 				margin-left:10%;
-			margin-right:10%;
-			width:80%;
-			display:inline-block;
-				-webkit-border-radius:5px;
+				margin-right:10%;
+				width:80%;
+				display:inline-block;
+				-webkit-border-radius:15px;
 				background-image:url(pic1.jpg);
-				border-bottom: 5px solid #20189b;
+				border: 5px solid #20189b;
 				margin-bottom:50px;
 				padding:10px;
 				margin-top:30px;
 				-webkit-box-flex:  1;
 }
 h4{
-	color: #00658f;
+	color: white;
     padding: 16px;
     font-size: 50px;
 	text-align:center;
@@ -115,21 +117,22 @@ h4{
 			background: url(pic2.jpg);
 			margin-left:20%;
 			margin-right:20%;
-
+			border-top: 5px solid #20189b;
 			width:300px;
-			color: #00658f;
+			color: white;
+			-webkit-border-radius:15px;
 			padding: 16px;
 			font-size: 30px;
 			cursor: pointer;
 }
 #but {
-	margin-left:20%;
-
+			margin-left:20%;
 			margin-right:20%;
 			display:inline-block;
 }
 .dropdown {
     position: relative;
+		-webkit-border-radius:15px;
 
     display: inline-block;
 }
@@ -139,23 +142,22 @@ h4{
 	margin-left:20%;
 	margin-right:20%;
 
-
+	-webkit-border-radius:15px;
+	background-image:url(pic2.jpg);
 			width:300px;
     position: absolute;
-    background-color: #f9f9f9;
 
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
+    color: white;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
-.dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover {background-color: black;}
 
 .dropdown:hover .dropdown-content {
     display: block;
@@ -177,9 +179,9 @@ h4{
 
 #left_side{
 
-			-webkit-border-radius:5px;
+			-webkit-border-radius:15px;
 			background-image:url(pic1.jpg);
-			border-bottom: 5px solid #20189b;
+			border: 5px solid #20189b;
 			padding:10px;
 			margin-left:10%;
 			margin-right:10%;
