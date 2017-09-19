@@ -1,11 +1,11 @@
 header,section,footer,nav,aside,article,hgroup{display:block;
 }
-
 *{
 	margin:0px;
 	padding:0px;
 
- }
+}
+
 body{
 	 width:100%;
 	 display:-webkit-box;
@@ -159,5 +159,4 @@ p{
 			-webkit-border-radius:5px;
 			background-color:white;
 			border-top: 5px solid #20189b;
-
 }
